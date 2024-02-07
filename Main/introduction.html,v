@@ -1,0 +1,309 @@
+head	1.1;
+access;
+symbols;
+locks
+	omar:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2022.01.04.19.28.31;	author omar;	state Exp;
+branches;
+next	;
+
+
+desc
+@version 1.6
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<!DOCTYPE html>
+<!-- In the Name of Allah, the Most Gracious and the Most Merciful -->
+
+<html>
+	<head>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href = "./style.css" type = "text/css" rel = "stylesheet" />
+		<link href="./introstyle.css" type = "text/css" rel="stylesheet" />
+		<link rel = "shortcut icon" href = "../Images/HomePage/index.png" />
+		<title>
+			Quaid-i-Azam University, Islamabad, Pakistan
+		</title>
+	</head>
+	<body style="margin:0;">
+		<div class = "header">
+			<div class = "top-most">
+				<span class = "left-top-most">
+					<!--Monday   |   December 27, 2021 -->
+				</span>
+				<span class = "right-top-most">
+					QAU Mail | Facebook | Downloads
+				</span>
+			</div>
+			<div class = "banner">
+				<div class = "logo-container">
+					<img class="logo-resize1" src="../Images/HomePage/logo2.png" alt = "logo2" />
+					<img class="logo-resize2" src="../Images/HomePage/logo1.png" alt = "logo1" />
+				</div>
+				<span class = "right-menu">
+					<ul class = "bulleting">	
+						<li>
+							<a href="#" class="list">
+								QAU Alumni
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								QAU Statutes
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								News Center
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								Event Diary
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								Affiliated Colleges
+							</a>
+						</li>
+					</ul>
+				</span>
+				<div class="nav-bar-icon" onclick="showNav()">
+					<img src="../Images/HomePage/nav-bar.png" alt="navigation bar icon" />
+				</div>
+			</div>
+			<div class="nav-bar-container">
+				<a href="#">
+					QAU
+				</a>
+				<a href="#">
+					Administration
+				</a>
+				<a href="#">
+					Undergraduate
+				</a>
+				<a href="#">
+					Postgraduate
+				</a>
+				<a href="#">
+					Admissions
+				</a>
+				<a href="#">
+					Examinations
+				</a>
+				<a href="#">
+					Library
+				</a>
+				<a href="#">
+					Research
+				</a>
+				<a href="#">
+					Contact
+				</a>
+				<a href="#">
+					Jobs
+				</a>
+			</div>
+			<div class="real-div">
+				<div class="intro-qau-container">
+					<div class="introduction">
+						<h3>
+							<a href="#">
+								QAU
+							</a>
+							 >> Introduction
+						</h3>
+						<p>
+						Quaid-i-Azam University is an international seat of higher, advance, intellectual learning that illuminates the human minds and broadens the vision bringing back home all kinds of opportunities and development.
+						</p>
+						<h2>
+							Introduction
+						</h2>
+						<p>
+						Quaid-i-Azam University (once named Islamabad University) was established in July 1967 under the Act of National Assembly and started teaching and research programmes for PhD and MPhil degrees. It was, however, gradually and later decided to offer Master’s, graduate, and now undergraduate programmes. The University, for its international repute, faculty and programmes attracts a large number of foreign students although it offers admission to a measured number of students from all regions of the country as it is a federal public sector university.
+						</p>
+						<p>
+						It has been able to establish its links with some selected universities in Europe, South Asia and the United States. The international educational and research institutions including UNESCO, IRSIP, Agencia Espanole de Cooperacion International (Spain) etc. collaborate their research activities with the Quaid-i-Azam University. Moreover, a reasonable size of the faculty members of the University have been working in the international universities like Oxford, Cambridge, Columbia, Heidelberg etc. earning applause and awards such as International Peace Award from Brussels.
+						</p>
+						<p>
+						Currently, the Quaid-i-Azam University has four faculties and nine other teaching and research Institutes, Centre and Schools. Briefly included; Faculty of Biological Sciences, Faculty of Natural Sciences, Faculty of Social Sciences, Faculty of Medicine (affiliated), Area Study Centre for Africa, North and South America, Centre of Excellence in Gender Studies, National Institute of Pakistan Studies, National Institute of Psychology, National Institute of Historical and Cultural Research, National Institute of Asian Civilizations, and the Computer Centre.
+						</p>
+						<p>
+						For growing educational and technical needs of the country, the University imparts quality education and training on lower strata of life in the field of computer and runs a wide range of short term certificate and diploma courses. In all, the University’s academic programmes, have an enrollment of over 5,500 students.
+						</p>
+						<p>
+						The University also maintains a high standard in providing services. It has well equipped classrooms, state of the art labs and libraries. Other facilities like hostels for male and female students, sports and play fields, transport, mosque, bank, utility shop, post office, photocopying and thesis/paper binding, telephone, café etc. are centrally located on the Campus.
+						</p>
+					</div>
+					<div class="qau-links">
+						<h3>
+							QAU
+						</h3>
+						<ul class="bulleting-b">
+							<li>
+								<a href="#">
+									Vision Statement
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Mission
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Core Values
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Introduction
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Infrastructure
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Message from VC
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Message from Registrar
+								</a>
+							</li>
+							<li class="bullet-droper">
+								<a href="#">
+									Message from Deans
+								</a>
+								<ul class="bulleting-b">
+									<li>
+										<a href="#">
+											Biological Sciences
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Natural Sciences
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Dean Social Sciences
+										</a>
+									</li>
+
+								</ul>
+							</li>
+							<li class="bullet-droper">
+								<a href="#">
+									Facilities @@QAU
+								</a>
+								<ul class="bulleting-b">
+									<li>
+										<a href="#">
+											Libraries
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Transport
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Student Accommodation
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Games And Sports
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Cafeteria And Shops
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Utility Store
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Bank
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Mosque
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Campus Security
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Medical Services
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Postal Services
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Central Workshop
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">
+									QAU Map
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<address>
+				 Quaid-i-Azam University Islamabad, 45320, Pakistan.
+			</address>
+			<div class="contactinfo">
+				<span class="tele">
+					Tel: +92-51 9064 0000
+				</span>
+				, Email:
+				<a href="mailto:info@@qau.edu.pk">
+					info@@qau.edu.pk
+				</a>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="script.js">
+		</script>
+	</body>
+</html>
+
+@

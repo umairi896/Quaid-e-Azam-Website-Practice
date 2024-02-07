@@ -1,0 +1,114 @@
+head	1.1;
+access;
+symbols;
+locks
+	omar:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2022.01.04.19.23.06;	author omar;	state Exp;
+branches;
+next	;
+
+
+desc
+@version 1.6
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@.new-real {
+	margin-right: 17.5%;
+	margin-left: 17.5%;
+	position: relative;
+	width: 65%;	
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+}
+
+.intro-qau-container {
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flex;
+	width: 100%;
+}
+.introduction {
+	position: relative;
+	width: 67%;
+}
+
+.introduction-table {
+	text-align: left;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+.introduction-table th {
+	width: 40%;
+	vertical-align: top;
+}
+.introduction-table td {
+	padding-left: 2em;
+}
+.qau-links {
+	/*
+	position: absolute;
+	*/width: 30%;
+	position: relative;
+	/*right: 0;*/
+	padding-left: 2em;
+}
+.introduction h3 , .qau-links h3{
+	border: 2px solid silver;
+	padding: 5px;
+}
+
+.introduction h3 a {
+	text-decoration: none;
+}
+
+.introduction p, .introduction ul {
+	font-size: 12px;
+}
+
+.vcpic {
+	height: 266px;
+	width: 346px;
+	float: right;
+}
+.bulleting-b {
+	list-style-image: url("../Images/HomePage/bullet-style.png");
+}
+
+.bullet-droper  .bulleting-b {
+	display: none;
+}
+
+.bullet-droper:hover .bulleting-b {
+	display: block;
+}
+.bulleting-b li a{
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.message-vc-para {
+	line-height: 2em;
+}
+
+.footer-bottom {
+	/*position: absolute;
+	bottom: 0;
+	*/
+}
+@

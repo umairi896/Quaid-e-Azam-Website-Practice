@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        .container {
+            
+            margin-left: 250px;
+            height: 100%;
+            width: 62%;
+        }
+
+        #search {
+            height: 35px;
+            margin: 5px;
+            padding-left: 700px;
+        }
+
+        #txt {
+            border: 1px solid #c2c2c2;
+            background-color: #F1F1F1;
+            margin-top: 3px;
+            height: 20px;
+        }
+
+        #srchbut {
+            /*background: url(../images/search_button.png) no-repeat;*/
+            border: 2px solid black;
+            float: right;
+            margin-top: 3px;
+            margin-right: 27px;
+            width: 27px;
+            height: 27px;
+            border: 0px;
+            font-size: 10px;
+            padding: 0px;
+        }
+
+        #intro {
+            color: #c2c2c2;
+            margin: 1px;
+            font-size: 10px;
+        }
+
+        #menu {
+            margin-top: 15px;
+            margin-right: 10px;
+            margin-left: 180px;
+            height: 25px;
+        }
+
+
+        topnav {
+            overflow: hidden;
+            background-color: white;
+        }
+
+        .topnav a {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Arial;
+            color: #000000;
+        }
+
+            .topnav a:hover {
+                color: #AFC6D4;
+            }
+
+            .topnav a.active {
+                color: #AFC6D4;
+            }
+
+        .mySlides {
+           
+            border-radius: 2px;
+            display: none;
+            height: 305px;
+            width: 100%;
+            margin-top: 30px;
+            margin-left: 12px;
+        }
+
+        #midbar {
+            position:absolute;
+            opacity:0.4;
+            z-index:10;
+            padding-top: 5px;
+            padding-left: 5px;
+            margin-top: -52px;
+            margin-left: 0px;
+            width: 59.5%;
+            height: 43px;
+            border-radius: 7px;
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            color: #CCCCCC;
+            display: flex;
+        }
+
+        .styledtext {
+            color: #CCCCCC;
+            text-decoration: none;
+            font-size: 10px;
+        }
+
+        #central {
+            display: flex;
+            height: 80px;
+            width: 910px;
+            font-family: Futura SB Book;
+        }
+
+        #widgets {
+            color: #CCCCCC;
+            display: flex;
+            height: 305px;
+            width: 97%;
+            border: 1px solid;
+            margin-left: 12px;
+        }
+
+        .wid1 {
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+            margin: 5px;
+        }
+
+        .part1 {
+            height: 05%;
+            font-family: Futura SB Book;
+            font-size: 18px
+        }
+
+        .part2 {
+            height: 40%;
+            border: 4px solid #e5e5e5;
+        }
+
+        .part3 {
+            font-family: Arial;
+            font-size: 12px;
+            color: black;
+        }
+
+        #last {
+            height: 80px;
+            width: 97%;
+            margin-left: 15px;
+            border: 1px solid black;
+        }
+        #middle{
+
+        }
+        .section-title:after {
+            background: #30afb8 none repeat scroll 0 0;
+            bottom: -6px;
+            height: 3px;
+            margin-left: -15px;
+            width: 30px;
+        }
+        #sq {
+            background-color: #30AFB8;
+            height: 55px;
+            width: 55px;
+            color: #30AFB8;
+            border: 1px solid #30AFB8;
+        }
+        #boxs {
+            display: flex;
+            flex-direction: column;
+            height: 166px;
+            width: 244px;
+            
+            margin: 5px
+        }
+        .endbar{
+
+        }
+        .endtext{
+            color: #606060;
+            height:5px;
+            width:5px;
+            text-decoration:none;
+            
+        }
+        .endtext:hover {
+           
+             color: #30AFB8;
+        }
+        #tblend {
+            font-family:Arial;
+            border-right:5px;
+            height: 50px;
+            width: 230px;
+            text-align: center;
+            overflow: hidden;
+            font-size: 12px;
+            margin-top:-10px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+
+
+
+        <div id="menu">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="https://lib.qau.edu.pk/drsm-library/">DRSM Libraray</a>
+                <a href="https://lib.qau.edu.pk/seminar-library/">Seminar Library</a>
+                <a href="https://lib.qau.edu.pk/national-digital-library/">National Digital Library</a>
+                <a href="https://lib.qau.edu.pk/national-digital-library/">ASK LIBRARIAN</a>
+
+
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="mySlides">
+                <img style="position:relative;width:97%;height:305px;z-index:1" src="http://lib.qau.edu.pk/wp-content/uploads/2021/06/HEC-Digital-Lib.jpeg">
+                <div id="midbar">
+                    Provide Access to HEC and University Resources.
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img style="position:relative;width:97%;height:305px;z-index:1" src="http://lib.qau.edu.pk/wp-content/uploads/2021/06/OPAC.jpeg">
+                <div id="midbar">
+                    Provide Access to University Available book stock
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <img style="position:relative;width:97%;height:305px;z-index:1" src="http://lib.qau.edu.pk/wp-content/uploads/2021/06/E-resouces.jpeg">
+                <div id="midbar">
+                    Provide Access to E-Resources i.e. E-Books, E-Journals and Many many more
+                </div>
+            </div>
+        </div>
+
+        <div style="font-family: Arial;font-size: 15px;color: #606060;padding-left:15px;">
+            <h2 style="font-size:25px;">Welcome To Dr. Raziuddin Siddiqi Memorial Library (DRSM Library)</h2>
+            <p>
+                Central Library (CL) is situated at the centre of the University campus and having total covered area is approximately 102,500 sq. ft with
+                an attractive start of the art four floors building, presenting natural scenes of Margalla hills. Central Library (CL) was re-named as Dr. Raziuddin
+                Siddiqi Mermorial (DRSM) Library on 06-02-1999 in recognition of Dr. Raziuddin Siddiqi’s memorable and meritorious services being a founder Vice Chancellor
+                of Quaid-i-Azam University.
+            </p>
+        </div>
+
+        <h1 style="margin-left:40%;font-family:Arial;font-size:23px;color:#313B48">DRSM LIBRARY SERVICES</h1>
+        <img src="https://images.squarespace-cdn.com/content/v1/5f5b7e897561ea35a4082778/1602038986643-UU8OQKDN9R43CTVT7WS3/Gradient+Line.png?format=1000w" style="margin-left: 45%;height: 17px;width: 64px;background-color: rgb(225,225,225)" />
+        <p style="        margin-left: 30%;font-family: Arial;font-size: 15px;color: #606060;">The following are DRSM Library services for faculty and students of the University.</p>
+
+        <table style="width:100%;border-bottom:1px solid black;">
+            <tr>
+                <td>
+                    <div style="display: flex;flex-direction: column;height: 166px;width: 244px;margin:5px">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="https://lib.qau.edu.pk/opac/" style="margin-top:10px; font-size:20px;margin-left:20px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">OPAC</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 15px; color: #606060; ">Provides bibliographic information of print books available in main and seminar libraries of the University.</p>
+                        <a style="font-weight:bold; font-size: 18px;color: #30AFB8;text-decoration:none;font-family:Arial" href="https://lib.qau.edu.pk/opac/">Click to Visit OPAC</a>
+                    </div>
+
+                </td>
+
+                <td>
+                    <div id="boxs">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="https://lib.qau.edu.pk/e-resource/" style="margin-top:10px; font-size:20px;margin-left:20px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">E-RESOURCES</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 14px; color: #606060; ">Access E-books, E-Journals and open access material related to course oriented, research and many many more</p>
+                        <a style="font-weight:bold; font-size: 15px;color: #30AFB8;text-decoration:none;font-family:Arial" href="https://lib.qau.edu.pk/e-resource/">Click to Visit E-RESOURCE</a>
+                    </div>
+                </td>
+
+                <td>
+                    <div id="boxs">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="https://lib.qau.edu.pk/seminar-library/" style="margin-top:10px; font-size:15px;margin-left:20px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">SEMINAR LIBRARIES</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 14px; color: #606060; ">The main library has its six sub libraries in various departments of the University.</p>
+                        <a style="font-weight:bold; font-size: 15px;color: #30AFB8;text-decoration:none;font-family:Arial" href="https://lib.qau.edu.pk/seminar-library/">Click to Visit SEMINAR-LIB</a>
+
+                    </div>
+                </td>
+                <td>
+                    <div id="boxs">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="https://lib.qau.edu.pk/seminar-library/" style="margin-top:10px; font-size:15px;margin-left:15px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">ELECTRONIC THESIS/ D-SPACE</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 14px; color: #606060; ">The link consists of Electronic version of all thesis produced in the QAU by students of Master, M.Phil and Ph.D. The resource on this link is under development phase</p>
+
+
+                    </div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div id="boxs">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="https://lib.qau.edu.pk/ask-librarian/" style="margin-top:10px; font-size:15px;margin-left:20px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">ASK LIBRARIAN</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 14px; color: #606060; ">Ask your question from Chief Librarian via e-mail.</p>
+                        <a style="font-weight:bold; font-size: 15px;color: #30AFB8;text-decoration:none;font-family:Arial" href="https://lib.qau.edu.pk/ask-librarian/">Click to here to ask LIBRARIAN</a>
+
+                    </div>
+                </td>
+                <td>
+                    <div id="boxs">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="http://www.digitallibrary.edu.pk/quaideazam.html" style="margin-top:10px; font-size:15px;margin-left:20px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">HEC DIGITAL LIBRARY</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 14px; color: #606060; ">Access E-books, E-Journals and open access material related to course oriented, research and many many more.</p>
+                        <a style="font-weight:bold; font-size: 15px;color: #30AFB8;text-decoration:none;font-family:Arial" href="http://www.digitallibrary.edu.pk/quaideazam.html">Click to here to visit digital LAB</a>
+
+                    </div>
+                </td>
+                <td>
+                    <div id="boxs">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="https://lib.qau.edu.pk/library-services/" style="margin-top:10px; font-size:15px;margin-left:20px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">E-LIBRARY</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 14px; color: #606060; ">Access E-books, E-Journals and open access material related to course oriented, research and many many more.</p>
+                        <a style="font-weight:bold; font-size: 15px;color: #30AFB8;text-decoration:none;font-family:Arial" href="https://lib.qau.edu.pk/library-services/">Click to here to ask E-LIBRARY</a>
+
+                    </div>
+                </td>
+
+                <td>
+                    <div id="boxs">
+                        <div style="display:flex;">
+                            <div id="sq">
+
+                            </div>
+                            <a href="https://lib.qau.edu.pk/library-services/" style="margin-top:10px; font-size:15px;margin-left:20px;text-decoration:none;font-family:Arial;font-weight:bold;color:black;">E-LIBRARY QUICK LINKS</a>
+                        </div>
+                        <p style="font-family: Arial; font-size: 14px; color: #606060; ">
+                            The section consists of Useful links for Plagiarism, Research Articles and E-Books.
+                        </p>
+                        <a style="font-weight:bold; font-size: 15px;color: #30AFB8;text-decoration:none;font-family:Arial" href="https://lib.qau.edu.pk/library-services/">Click to here to ask E-LIBRARY</a>
+
+                    </div>
+                </td>
+
+            </tr>
+
+
+        </table>
+
+        <h1 style="margin-left:40%;font-family:Arial;font-size:23px;color:#313B48">DRSM LIBRARY SERVICES</h1>
+        <img src="https://images.squarespace-cdn.com/content/v1/5f5b7e897561ea35a4082778/1602038986643-UU8OQKDN9R43CTVT7WS3/Gradient+Line.png?format=1000w" style="margin-left: 45%;height: 17px;width: 64px;background-color: rgb(225,225,225)" />
+        <p style="        margin-left: 30%;font-family: Arial;font-size: 15px;color: #606060;">
+            The number of available E-books, E-journals, open sources and many many more.
+        </p>
+
+        <table style="border-bottom:1px solid black">
+            <tr>
+                <td>
+                    <div style="display:flex;flex-direction:column;font-family:Arial;border:1px solid black;width:360px;text-align:center;">
+                        <div id="sq" style="margin-top:10px;margin-left:50%">
+
+                        </div>
+                        <p style="font-size: 46px;font-weight: bold;color: #30AFB8;margin:5px;">200+</p>
+                        <p style="font-size: 15px;color: #30AFB8;font-family:Arial">E-BOOKS</p>
+                    </div>
+
+                </td>
+
+                <td>
+                    <div style="display:flex;flex-direction:column;font-family:Arial;border:1px solid black;width:436px;text-align:center">
+                        <div id="sq" style="margin-top:10px;margin-left:50%">
+
+                        </div>
+                        <p style="font-size: 46px;font-weight: bold;color: #30AFB8;margin:5px;">2000+</p>
+                        <p style="font-size: 15px;color: #30AFB8;font-family:Arial">E-JOURNALS</p>
+                    </div>
+
+                </td>
+
+                <td>
+                    <div style="display:flex;flex-direction:column;font-family:Arial;border:1px solid black;width :360px;text-align:center">
+                        <div id="sq" style="margin-top:10px;margin-left:50%">
+
+                        </div>
+                        <p style="font-size: 46px;font-weight: bold;color: #30AFB8;margin:5px;">20000+</p>
+                        <p style="font-size: 15px;color: #30AFB8;font-family:Arial">OPEN ACCESS</p>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+
+        <div style="border-bottom:1px solid black">
+            <h1 style="color: #606060;font-family:Arial">
+                Librarian Message
+            </h1>
+            <p style="color:#606060;font-family:Arial;margin-top:-15px;margin-bottom:-15px">
+                Welcome to the Quaid-i-Azam University, Islamabad Central Library!
+            </p>
+            <p style="color:#606060;font-family:Arial">
+                The DRSM Library is continuously trying to transform library services into the latest state-of-the-art approaches adopted at the national and international levels.
+                We, an entire team of library professionals, are providing support in terms of excellent services to all stakeholders – scholars, faculty members, and employees of the University.
+                The objective of our library is to provide the best services e.g. research materials, books, and articles in both soft and print formats, whichever format suits the information acquirer.
+                Similarly, the library provides an interactive, conducive, innovative environment for study, research, and many more. Moreover, the library plays a vital role in enabling its stakeholders
+                to succeed in their respective domains of study and develop critical thinking skills. Our dedicated, knowledgeable, and friendly library professionals and supporting staff are committed to
+                delivering user-focused and technologically sophisticated services to all its stakeholders.
+                It’s an honor for me, to be a part of the central library professionals and leading them in their respective domains of library management, and collaborating with faculty members, scholars, and
+                employees of the University. I look forward to meeting you via physical/virtually/telephonic mode and appreciate suggestions/feedback for further improvement.
+            </p>
+            <p style="color:#606060;font-family:Arial;margin-top:-15px">Anwar Ejaz</p>
+            <p style="color: #606060;font-family: Arial;margin-top: -15px">Librarian</p>
+            <p style="color: #606060;font-family: Arial;margin-top:-15px">
+                Quaid-i-Azam University, Islamabad
+            </p>
+            <p style="color: #606060;font-family: Arial;margin-top: -15px;">051-90642071</p>
+            <p style="color: #606060;font-family: Arial;margin-top: -15px">
+                librarian@qau.edu.pk
+            </p>
+        </div>
+
+        <div>
+            <h1 style="margin-left:40%;font-family:Arial;font-size:23px;color:#313B48">NEWS & UPDATES</h1>
+            <img src="https://images.squarespace-cdn.com/content/v1/5f5b7e897561ea35a4082778/1602038986643-UU8OQKDN9R43CTVT7WS3/Gradient+Line.png?format=1000w" style="margin-left: 45%;height: 17px;width: 64px;background-color: rgb(225,225,225)" />
+            <p style="text-align:center;font-family: Arial;font-size: 15px;color: #606060;">
+                The Library latest news and updates.
+            </p>
+        </div>
+
+
+
+
+        <table style="border-top:1px solid black">
+            <tr>
+                <td>
+                    <div style="display:flex;flex-direction:column;font-family:Arial;width:360px;">
+
+                        <a href="https://lib.qau.edu.pk/hello-world/" style="text-decoration: none;"><h2 style="font-size: 23px;font-weight: bold;color:black;margin-top:26px;">Hello World!</h2></a>
+                        <p style="font-size: 15px;color: #606060;font-family: Arial;margin-top:-10px">Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+                    </div>
+
+                </td>
+
+                <td>
+                    <div style="display:flex;flex-direction:column;font-family:Arial;width:360px;">
+
+                        <a href="https://lib.qau.edu.pk/new-library/" style="text-decoration: none;"><h2 style="font-size: 23px;font-weight: bold;color:black">NEWS SOCIETY</h2></a>
+                        <p style="font-size: 15px;color: #606060;font-family: Arial;margin-top:-10px">New Library website is under construction…….</p>
+                    </div>
+
+                </td>
+
+                <td>
+                    <div style="display:flex;flex-direction:column;font-family:Arial;width:360px;">
+
+                        <a href="https://lib.qau.edu.pk/upcoming-expo/" style="text-decoration: none;"><h2 style="font-size: 23px;font-weight: bold;color:black">Upcoming Expo!</h2></a>
+                        <p style="font-size: 15px;color: #606060;font-family: Arial;margin-top:-10px">The schedule of upcoming expo is as under:</p>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+
+    <div style="width: 100%;height: 80px;background-color: #28313D;margin-top:10px">
+        <p style="color:white;font-family:Arial;font-size:12px;padding-top:15px;padding-left:320px">
+            Copyright © 2022
+            <a href="https://lib.qau.edu.pk/" class="endtext" >DRSM Library</a>
+            Theme: Flash by 
+            <a href="https://themegrill.com/themes/flash/" class="endtext"> ThemeGrill.</a>    
+            Proudly powered by
+            <a href="https://wordpress.org/" class="endtext">WordPress</a> 
+        </p>
+        <table style="margin-left:550px;margin-top:-15px">
+            <tr >
+                <td id="tblend"><a href="https://lib.qau.edu.pk/drsm-library/" class="endtext">DRSM LIBRARAY</a></td>
+                <td id="tblend"><a href="https://lib.qau.edu.pk/seminar-library/" class="endtext">SEMINAR LIBRARAY</a></td>
+                <td id="tblend"><a href="https://lib.qau.edu.pk/rules-and-regulations/" class="endtext">RULES AND REGULATIONS</a></td>
+                <td id="tblend"><a href="https://lib.qau.edu.pk/library-services/" class="endtext">LIBRARAY SERVICES</a></td>
+                <td id="tblend"><a href="https://lib.qau.edu.pk/library-hours-and-holidays/" class="endtext">LIBRARAY HOURS AND HOLIDAYS</a></td>
+                <td id="tblend"><a href="https://lib.qau.edu.pk/ask-librarian/" class="endtext">ASK LIBRARIAN</a></td>
+            </tr>
+            
+           
+        </table>
+    </div>
+
+    
+    <script>
+        var myIndex = 0;
+        carousel();
+        app();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+
+        var myIndex = 0;
+
+
+        function app() {
+            var j;
+            var y = document.getElementsByClassName("styledtext");
+            for (j = 0; j < x.length; j++) {
+                y[j].style.display = "none";
+                setTimeout(app, 2000);
+            }
+        }
+
+    </script>
+
+</body>
+</html>

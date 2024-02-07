@@ -1,0 +1,1127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="./introstyle.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="../Images/HomePage/index.png">
+    <title>
+        Quaid-i-Azam University, Islamabad, Pakistan
+    </title>
+    <style>
+        html, body {
+            min-height: 100% !important;
+            height: 100%;
+            padding: 0;
+        }
+
+        body {
+            font-family: Roboto;
+        }
+
+        .top-most, footer {
+            position: relative;
+            width: 100%;
+            height: 2.4vh;
+            padding: 13px 0px;
+            color: #999999;
+            font-family: Roboto;
+            font-size: 10px;
+            background-color: #1a1a1a;
+        }
+
+        .left-top-most {
+            margin-left: 17.5%;
+            position: relative;
+        }
+
+        .right-top-most {
+            margin-right: 17.5%;
+            float: right;
+            position: relative;
+        }
+
+        .banner {
+            position: relative;
+            width: 100%;
+            /*	height: 10.625em;*/
+            height: 10.625em;
+            background-color: #005077;
+            border-bottom: solid 1px #00354f;
+        }
+
+        .logo-container {
+            margin-left: 17.5%;
+            /*margin-left: auto;
+            margin-right: auto;*/
+            width: 38.5em;
+            height: 100%;
+            position: absolute;
+        }
+
+        .right-menu {
+            position: absolute;
+            top: 10%;
+            color: white;
+            font-size: 10px;
+            display: inline-block;
+            right: 17.5%;
+        }
+
+        .bulleting {
+            line-height: 200%;
+            list-style-image: url("../Images/HomePage/bullet-style.png");
+        }
+
+        .list {
+            color: white;
+            position: relative;
+            left: 0%;
+            transition: left 1s;
+            text-decoration: none;
+        }
+
+            .list:hover {
+                position: relative;
+                left: 10%;
+                color: #acec68;
+            }
+
+        .logo-resize1 {
+            width: 28.875em;
+            height: 10.625em;
+        }
+
+        .logo-resize2 {
+            width: 9.375em;
+            height: 10.625em;
+        }
+
+        .nav-bar-container {
+            background-color: #005077;
+            font-size: 15px;
+            -moz-box-shadow: 0 -10px 10px #777777;
+            -webkit-box-shadow: 0 -10px 10px #777777;
+            box-shadow: 0 -10px 10px #777777;
+            border-top: solid 2px #005680;
+            padding-left: 17.5%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            z-index: 99999;
+        }
+
+            .nav-bar-container a {
+                text-decoration: none;
+                color: white;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+                .nav-bar-container a:hover {
+                    background-color: white;
+                    color: #3f5a9c;
+                }
+
+        .nav-bar-icon {
+            visibility: hidden;
+            border-radius: 100%;
+            background: transparent;
+            border: transparent;
+        }
+
+            .nav-bar-icon img {
+                height: 40px;
+                width: 40px;
+            }
+
+        .real-div {
+            margin-right: 17.5%;
+            margin-left: 17.5%;
+            position: relative;
+            width: 65%;
+            overflow: hidden;
+        }
+
+        .slider {
+            position: relative;
+            background-color: red;
+            /*width: 100%;
+            */ height: 20em;
+            left: 0;
+            right: 0;
+        }
+
+            .slider img {
+                position: absolute;
+                float: left;
+                /*width: calc(var(--main-width));
+            */ height: 100%;
+                width: 100%;
+            }
+
+        .slider-frame {
+            position: relative;
+            --main-width: 100%;
+            width: calc(var(--main-width));
+            height: 20em;
+            background-color: red;
+            overflow: hidden;
+        }
+
+        .news-box {
+            position: relative;
+            background-color: white;
+            width: 310px;
+            top: 50px;
+            display: inline-block;
+        }
+
+            .news-box a, .latest-events a {
+                text-decoration: none;
+            }
+
+            .news-box img {
+                vertical-align: top;
+                float: left;
+            }
+
+        .news1, .news2, .news3 {
+            font-size: 12px;
+            line-height: 13px;
+        }
+
+        .news2, .news3 {
+            margin-top: 10px;
+        }
+
+        .latest-events {
+            position: absolute;
+            width: 310px;
+            height: 220px;
+            top: 50px;
+            display: inline-block;
+            background-color: white;
+            margin-left: 20px;
+            border: 1px solid silver;
+        }
+        /*
+        .latest-events h3 {
+            margin-top: 15px;
+            color: white;
+            background-color: #005077;
+        }
+        */
+        .typical-head {
+            color: white;
+            background-color: #005077;
+            padding-left: 20px;
+            height: 30px;
+            position: relative;
+            /*transform: translateY(7px);
+             */
+        }
+
+        .latest-events p {
+            font-size: 12px;
+            line-height: 13px;
+            margin-left: 10px;
+        }
+
+        .latest-events-a1 {
+            color: red;
+        }
+
+        .latest-events-a2 {
+            color: black;
+        }
+
+        .stack-heads-container {
+            width: 320px;
+            height: 375px;
+            position: absolute;
+            display: inline-flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: -10px;
+            right: 0px;
+            top: 50px;
+            background-color: white;
+            font-size: 12px;
+        }
+
+        .new-real {
+            margin-right: 17.5%;
+            margin-left: 17.5%;
+            position: relative;
+            width: 65%;
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+        .intro-qau-container {
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -webkit-flex;
+            width: 100%;
+        }
+
+        .introduction {
+            position: relative;
+            width: 67%;
+        }
+
+        .introduction-table {
+            text-align: left;
+            vertical-align: top;
+            font-size: 12px;
+        }
+
+            .introduction-table th {
+                width: 40%;
+                vertical-align: top;
+            }
+
+            .introduction-table td {
+                padding-left: 2em;
+            }
+
+        .qau-links {
+            /*
+            position: absolute;
+            */ width: 30%;
+            position: relative;
+            right: 0;
+            padding-left: 2em;
+        }
+
+            .introduction h3, .qau-links h3 {
+                border: 2px solid silver;
+                padding: 5px;
+            }
+
+                .introduction h3 a {
+                    text-decoration: none;
+                }
+
+        .introduction p, .introduction ul {
+            font-size: 12px;
+        }
+
+        .vcpic {
+            height: 266px;
+            width: 346px;
+            float: right;
+        }
+
+        .bulleting-b {
+            list-style-image: url("../Images/HomePage/bullet-style.png");
+        }
+
+        .bullet-droper .bulleting-b {
+            display: none;
+        }
+
+        .bullet-droper:hover .bulleting-b {
+            display: block;
+        }
+
+        .bulleting-b li a {
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .message-vc-para {
+            line-height: 2em;
+        }
+
+        .footer-bottom {
+            /*position: absolute;
+            bottom: 0;
+            */
+        }
+        /*
+        .stack-head1 {
+            position: absolute;
+            top: 0px;
+        }
+        *
+        .stack-head2 {
+            height: 270px;
+            position: relative;
+            background-color: black;
+
+        }
+        /*/
+        .stack-head1 {
+            position: relative;
+            height: 270px;
+            transition: height 2s ease-in-out;
+            overflow: hidden;
+        }
+
+        .stack-head2, .stack-head3, .stack-head4 {
+            position: relative;
+            margin-top: 5px;
+            height: 30px;
+            margin-bottom: 0px;
+            transition: height 2s ease-in-out;
+            overflow: hidden;
+        }
+
+            .stack-head2 h2 {
+                color: #333333;
+            }
+
+        /*
+        .stack-head1 h4, .stack-head2 h4, .stack-head3 h4, .stack-head4 h4 {
+            background-color: #005077;
+            color: white;
+            height: 30px;
+            vertical-align: center;
+            padding-left: 20px;
+        }
+        */
+
+        .stack-heads-container a {
+            text-decoration: none;
+        }
+
+        .scholarships {
+            color: black;
+        }
+
+        .stackbullets {
+            list-style-image: url("../Images/HomePage/bulletstyle.gif");
+            display: block;
+        }
+
+            .stackbullets li {
+                display: list-item;
+            }
+
+        .stack-heads-container .typical-head-container {
+            position: relative;
+            top: -20px;
+            background-color: black;
+            color: white;
+            height: 30px;
+            padding-top: 4px;
+        }
+
+        .message-vc {
+            width: 310px;
+            position: relative;
+            left: 330px;
+            bottom: 90px;
+        }
+
+            .message-vc p {
+                font-size: 12px;
+            }
+
+            .message-vc img {
+                float: right;
+                vertical-align: top;
+                width: 65px;
+                height: 87px;
+            }
+
+            .message-vc a {
+                text-decoration: none;
+                color: #333333;
+                font-size: 12px;
+            }
+
+        .link-boxes {
+            width: 980px;
+            height: 370px;
+            border-top: 1px solid silver;
+            position: relative;
+        }
+
+        .link-boxes-leftborder {
+            border-left: 1px solid silver;
+            position: absolute;
+            top: 0%;
+            bottom: 30%;
+        }
+
+        .link-boxes-rightborder {
+            border-right: 1px solid silver;
+            position: absolute;
+            bottom: 30%;
+            top: 0%;
+            right: 0%;
+        }
+
+        .microsoft {
+            padding-left: 20px;
+            padding-top: 30px;
+            width: 225px;
+            height: 340px;
+            position: relative;
+        }
+
+            .microsoft img {
+                width: 220px;
+                height: 110px;
+            }
+
+            .microsoft h3, .student-corner h3, .important-links h3, .circulars h3, .clubs h3, .affiliated-ict h3 {
+                color: #05557c;
+            }
+
+            .microsoft a, .student-corner a, .important-links a, .circulars a, .clubs a, .affiliated-ict a {
+                font-size: 12px;
+                text-decoration-color: black;
+            }
+
+        .microsoft-borderright {
+            position: absolute;
+            top: 10%;
+            border-right: 1px dotted silver;
+            bottom: 10%;
+            right: 0%;
+        }
+
+        .bulleting-a {
+            list-style-image: url("../Images/HomePage/bullet-style.png");
+        }
+
+        .student-important {
+            position: relative;
+            left: 245px;
+            padding-left: 20px;
+            width: 225px;
+            height: 340px;
+            padding-top: 30px;
+            bottom: 370px;
+        }
+
+        .student-corner-borderright {
+            position: absolute;
+            border-right: 1px dotted silver;
+            top: 5px;
+        }
+
+        .circulars-clubs {
+            position: relative;
+            height: 340px;
+            padding-left: 20px;
+            padding-top: 30px;
+            left: 490px;
+            width: 225px;
+            bottom: 740px;
+        }
+
+        .microsoft ul, .circulars ul, .student-corner ul, .important-links ul, .circulars ul, .clubs ul, .affiliated-ict ul {
+            line-height: 13px;
+        }
+
+        .affiliated-ict {
+            position: relative;
+            height: 340px;
+            padding-left: 20px;
+            padding-top: 30px;
+            left: 735px;
+            width: 225px;
+            bottom: 1110px;
+        }
+
+        .about-us {
+            width: 630px;
+            position: relative;
+        }
+
+            .about-us h3 {
+                border: 2px solid silver;
+                padding-left: 5px;
+            }
+
+            .about-us img {
+                float: left;
+                margin-left: 5px;
+            }
+
+            .about-us p {
+                font-size: 12px;
+                left: 5px;
+                margin-right: 10px;
+                position: relative;
+                text-align: justify;
+                line-height: 1.7em;
+            }
+
+            .about-us a {
+                text-decoration: none;
+            }
+
+        .qau-map {
+            width: 340px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+            .qau-map h3 {
+                border: 2px solid silver;
+                padding-left: 5px;
+                margin-top: 0;
+            }
+
+            .qau-map iframe {
+                width: 340px;
+                height: 150px;
+            }
+
+        .about-map-container {
+            position: relative;
+            width: 980px;
+        }
+        /* Just a random comment */
+        .lower-body {
+            position: relative;
+            width: 980px;
+        }
+
+        footer {
+            position: relative;
+            bottom: 0;
+            /*	margin-top: 20px;
+         */
+        }
+
+            footer address {
+                margin-left: 17.5%;
+            }
+
+            footer a {
+                color: #999999;
+                text-decoration: none;
+            }
+
+        .contactinfo {
+            margin-left: 17.5%;
+        }
+
+        @media (min-width: 0px) and (max-width: 700px) {
+            .top-most {
+                display: relative;
+                justify-content: center;
+            }
+
+            .left-top-most {
+                /*position: absolute;
+                */ display: block;
+                width: 100%;
+                margin-left: 0%;
+                float: none;
+                text-align: center;
+            }
+
+            .right-top-most {
+                /*position: absolute;
+                */ float: none;
+                display: block;
+                width: 100%;
+                float: none;
+                text-align: center;
+            }
+
+            .logo-resize1 {
+                width: 14.4375em;
+                height: 5.3125em;
+            }
+
+            .logo-resize2 {
+                width: 4.6875em;
+                height: 5.3125em;
+            }
+
+            .logo-container {
+                position: absolute;
+                width: 19.38em;
+                margin-left: 0em;
+                height: 5.3125em;
+                /*background-color:red;
+                */
+            }
+
+            .right-menu {
+                position: absolute;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                left: 0em;
+                bottom: 0em;
+                top: 8.5em;
+            }
+
+            .banner {
+                overflow: hidden;
+            }
+
+            .list {
+                position: static;
+                display: inline-block;
+                width: 8em;
+                padding-left: 1.5em;
+                padding-bottom: 0em;
+                margin-left: -1.7em;
+            }
+
+            .bulleting {
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+                .bulleting li {
+                    flex-basis: 50%;
+                }
+
+            .nav-bar-icon {
+                width: 40px;
+                height: 40px;
+                position: relative;
+                padding: 0;
+                border-radius: 100%;
+                margin-right: 2%;
+                margin-top: 10px;
+                float: right;
+                visibility: visible;
+                background-color: white;
+            }
+
+                .nav-bar-icon img {
+                    /*padding-right:100px;
+                */ position: absolute;
+                    width: 40px;
+                    height: 40px;
+                    display: inline;
+                    object-fit: cover;
+                    /*height: 10px;
+
+                width: 10px;
+                vertical-align: center;
+                 */
+                }
+
+            .nav-bar-container {
+                /*margin-right: -200%;
+                 */
+                padding-left: 10px;
+                float: right;
+                padding-right: 0%;
+                display: none;
+                position: relative;
+                margin-right: 0;
+                -moz-box-shadow: 0px 0px 0px #777777;
+                -webkit-box-shadow: 0px 0px 0px #777777;
+                box-shadow: 0px 0px 0px #777777;
+                border-top: solid 2px #005680;
+                z-index: 999999999999999;
+            }
+
+                .nav-bar-container a {
+                    display: block;
+                    padding-left: 10px;
+                    /**/
+                }
+            /*  .listdata {
+                background-color: white;
+                font-size: 14px;
+
+            }
+            .hide {
+                display: none;
+            }
+
+            .listdata:hover + .hide {
+                display: block;
+
+            }*/
+            .hide {
+                display: none;
+            }
+
+            .listdata {
+                font-size: 25px;
+            }
+
+                .listdata:hover + .hide {
+                    display: block;
+                }
+            #tabledatas {
+                width: 25%;
+                border: 1px dotted black;
+                text-align: left
+            }
+        }
+    </style>
+</head>
+<body style="margin:0;" data-new-gr-c-s-check-loaded="14.1043.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+    <div class="header">
+        <div class="top-most">
+            <span class="left-top-most">
+                <!--Monday   |   December 27, 2021 -->
+            </span>
+            <span class="right-top-most">
+                QAU Mail | Facebook | Downloads
+            </span>
+        </div>
+        <div class="banner">
+            <div class="logo-container">
+                <img class="logo-resize1" src="../Images/HomePage/logo2.png" alt="logo2">
+                <img class="logo-resize2" src="../Images/HomePage/logo1.png" alt="logo1">
+            </div>
+            <div class="right-menu">
+                <ul class="bulleting">
+                    <li>
+                        <a href="#" class="list">
+                            QAU Alumni
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="list">
+                            QAU Statutes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="list">
+                            News Center
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="list">
+                            Event Diary
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="list">
+                            Affiliated Colleges
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-bar-icon" onclick="showNav()">
+                <img src="../Images/HomePage/nav-bar.png" alt="navigation bar icon">
+            </div>
+        </div>
+        <div class="nav-bar-container">
+            <a href="#">
+                QAU
+            </a>
+            <a href="#">
+                Administration
+            </a>
+            <a href="#">
+                Undergraduate
+            </a>
+            <a href="#">
+                Postgraduate
+            </a>
+            <a href="#">
+                Admissions
+            </a>
+            <a href="#">
+                Examinations
+            </a>
+            <a href="#">
+                Library
+            </a>
+            <a href="#">
+                Research
+            </a>
+            <a href="#">
+                Contact
+            </a>
+            <a href="#">
+                Jobs
+            </a>
+        </div>
+        <div class="new-real">
+            <div class="intro-qau-container">
+                <div class="introduction">
+                    <h3>
+                        <a href="#">
+                            QAU
+                        </a>
+                        &gt;&gt; Administration &gt;&gt; Regsitrar Office &gt;&gt; Staff Members
+                    </h3>
+
+
+                    <div style="width: 800px; color: #333333; font-family: Arial;border:1px solid black;margin-top:10px;font-size:12px">
+                        <table width="800px">
+                            <tr>
+                                <th style="width: 30%; border: 1px dotted black; text-align: left">Name</th>
+                                <th style="width: 30%; border: 1px dotted black; text-align: left">Designation</th>
+                                <th style="width: 15%; border: 1px dotted black; text-align: left">Phone No.</th>
+                                <th style="width: 15%; border: 1px dotted black; text-align: left">Fax No.</th>
+                                <th style="width: 20%; border: 1px dotted black; text-align: left">Email</th>
+
+                            </tr>
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Dr. Raja Qaiser Ahmed	Registrar</td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Registrar</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">(92) 51-9064-4046</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">registrar@qau.edu.pk</td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Director, P&D</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">(92) 51-9064-4077</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">(92) 51-9064-4077</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left"></td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Additional Registrar</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4074</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left"></td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Mr. Humayoun Khan</td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">	Deputy Registrar (Establishment)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4063</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">	ebneadam@qau.edu.pk</td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Assistant Registrar (Establishment-I)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">		(92) 51-9064-4141	</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left"></td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Assistant Registrar (Establishment-II)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4142</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left"></td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Mr. Altaf Gohar Tanoli</td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">	Assistant Registrar (Administration)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4079</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">	atanoli@qau.edu.pk</td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Assistant Director (P&D)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4089</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4077</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left"></td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Assistant Registrar (Meeting)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4058</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">	armeeting@qau.edu.pk</td>
+                            </tr>
+                            
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Assistant Registrar (Admissions)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4062</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">		(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">		admissions@qau.edu.pk</td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Mr. Sami Ullah Khan	</td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Assistant Registrar (Legal)	</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">(92) 51-9064-4075</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">	arlegal@qau.edu.pk</td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left"></td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Manager (University Advancement)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4061</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left"></td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Mr. Zulfiqar Ali	Manager </td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">(Financial Assistance)	</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4091</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4110</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">	zulfiqar@qau.edu.pk</td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">Mr. Nadeem Yasir Saleemi	</td>
+                                <td style="width: 30%; border: 1px dotted black; text-align: left">(Public Relations)</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">	(92) 51-9064-4094</td>
+                                <td style="width: 15%; border: 1px dotted black; text-align: left">		(92) 51-9064-4110	</td>
+                                <td style="width: 20%; border: 1px dotted black; text-align: left">	pro@qau.edu.pk</td>
+                            </tr>
+                            
+                            <tr></tr>
+                            <tr></tr>
+
+                        </table>
+
+                    </div>
+                </div>
+                <div class="qau-links">
+                    <h3>
+                        QAU
+                    </h3>
+                    <ul class="bulleting">
+
+
+                        <li style="list-style-type:none">
+                            <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:12px">
+                            <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                About Regsitrar Office
+                            </a>
+                        </li>
+
+                        <li style="list-style-type:none">
+                            <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                            <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                Stakeholders
+                            </a>
+                        </li>
+
+                        <li style="list-style-type:none">
+                            <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                            <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                Broad Functions
+                            </a>
+                        </li>
+
+                        <li style="list-style-type:none">
+                            <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png">
+                            <a href="https://qau.edu.pk/vcoffice/" class="listdata" style="text-decoration:none">
+                                Sections
+                            </a>
+                            <ul class="hide">
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        P &amp; D Directorate
+                                    </a>
+                                </li>
+
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        Establishment Section
+                                    </a>
+                                </li>
+
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        Administration Section
+                                    </a>
+                                </li>
+
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        Admission Section
+                                    </a>
+                                </li>
+
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        Meeting Section
+                                    </a>
+                                </li>
+
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        Advancement Section
+                                    </a>
+                                </li>
+
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        Esate Office
+                                    </a>
+                                </li>
+
+                                <li style="list-style-type:none">
+                                    <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                                    <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                        Student Financial Assistance
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li style="list-style-type:none">
+                            <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                            <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                Office Support
+                            </a>
+                        </li>
+
+                        <li style="list-style-type:none">
+                            <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                            <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                What is handled elsewhere?
+                            </a>
+                        </li>
+
+                        <li style="list-style-type:none">
+                            <img src="https://qau.edu.pk/wp-content/themes/twentyeleven/images/bg-accor1.png" style="background-color:white;font-size:14px">
+                            <a href="https://qau.edu.pk/vcoffice/" style="text-decoration:none">
+                                Staff Members
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-bottom" style="color:white">
+        <address>
+            Quaid-i-Azam University Islamabad, 45320, Pakistan.
+        </address>
+        <div class="contactinfo">
+            <span class="tele">
+                Tel: +92-51 9064 0000
+            </span>
+            , Email:
+            <a href="mailto:info@qau.edu.pk" style="color: #899989">
+                info@qau.edu.pk
+            </a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+
+    <iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}" style="display: none;"></div><div id="naptha_container0932014_0707"></div>
+</body>
+</html>

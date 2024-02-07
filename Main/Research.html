@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+    <style>
+        .container{
+            border : 1px solid black;
+           margin-left : 500px;
+           height : 100%;
+           width : 50%;
+        }
+        #search {
+            height: 35px;
+            
+            margin: 5px;
+            padding-left: 700px;
+        }
+        #txt {
+            border: 1px solid #c2c2c2;
+            background-color: #F1F1F1;
+            margin-top: 3px;
+            height: 20px;
+        }
+        #srchbut {
+            /*background: url(../images/search_button.png) no-repeat;*/
+            border:2px solid black;
+            float: right;
+            margin-top : 3px;
+            margin-right:27px;
+            width: 27px;
+            height: 27px;
+            border: 0px;
+            font-size: 10px;
+            padding :0px;
+        }
+        #intro {
+            color: #c2c2c2;
+            margin: 1px;
+            font-size: 10px;
+        }
+        #menu {
+           
+            margin-top: 15px;
+            margin-right: 10px;
+            margin-left: 45px;
+            height: 25px;
+        }
+        
+
+        topnav {
+            overflow: hidden;
+            background-color: white;
+        }
+
+        .topnav a {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Arial;
+            color:#000000;
+        }
+
+            .topnav a:hover {
+                color: #AFC6D4;
+            }
+
+            .topnav a.active {
+                color: #AFC6D4;
+            }
+        .mySlides {
+            border-radius:2px;
+            display: none;
+            height:305px;
+            width:97%;
+            margin-top:30px;
+            margin-left:12px;
+        }
+        #midbar {
+            padding-top: 25px;
+            padding-left: 5px;
+            margin-top: 10px;
+            margin-left: 15px;
+            width: 910px;
+            height: 50px;
+            border-radius: 7px;
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            color: #CCCCCC;
+            display:flex;
+        }
+
+        .styledtext {
+            
+            color: #CCCCCC;
+            text-decoration: none;
+            font-size: 10px;
+        }
+        #central {
+            display: flex;
+           
+            height: 80px;
+            width: 910px;
+            font-family: Futura SB Book;
+        }
+        #widgets {
+            color: #CCCCCC;
+            display: flex;
+            height: 305px;
+            width: 97%;
+            border: 1px solid;
+            margin-left: 12px;
+        }
+        .wid1
+        {
+            display:flex;
+            flex-direction:column;
+            width:33%;
+            margin:5px;
+            
+        }
+        .part1 {
+            height: 05%;
+            font-family: Futura SB Book;
+            font-size: 18px
+        }
+        .part2 {
+            height: 40%;
+            border: 4px solid #e5e5e5 ;
+        }
+        .part3 {
+            font-family: Arial;
+            font-size: 12px;
+            color: black;
+        }
+        #last{
+
+            height:80px;
+            width:97%;
+            margin-left:15px;
+            border:1px solid black;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div>
+            <a href="http://oric.qau.edu.pk/">
+                <img src="http://oric.qau.edu.pk/wp-content/uploads/2011/09/logo3.png"  />
+            </a>
+        </div>
+        <div id="search">
+            <input type="text" name="s" id="txt">
+            <img id="srchbut" src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/search_button.png">
+            <div id="intro">E.g. projects, industry, search or subject.</div>
+        </div>
+
+        <div id="menu">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#FP7">FP7</a>
+                <a href="#Our Projects">Our Projects</a>
+                <a href="#Success Stories">Success Stories</a>
+                <a href="#Buisness Incubation">Buisness Incubation</a>
+                <a href="#Center">Center</a>
+                <a href="News">News</a>
+                <a href="Contact">Contact</a>
+
+            </div>
+        </div>
+
+
+
+        <div >
+            <img class="mySlides" src="http://oric.qau.edu.pk/wp-content/uploads/2011/09/industry-banner.jpg">
+
+            <img class="mySlides" src="http://oric.qau.edu.pk/wp-content/uploads/2011/09/slider-fp7.jpg">
+
+            <img class="mySlides" src="http://oric.qau.edu.pk/wp-content/uploads/2011/09/industrycollaboration.jpg">
+
+            <img class="mySlides" src="http://oric.qau.edu.pk/wp-content/uploads/2011/09/donor-agencies.jpg">
+
+            <img class="mySlides" src="http://oric.qau.edu.pk/wp-content/uploads/2011/09/ccqau_main.jpg">
+
+            <img class="mySlides" src="http://oric.qau.edu.pk/wp-content/uploads/2011/09/ccqau_services.jpg">
+
+        </div>
+
+        <div id="midbar">
+            <span>
+                HOT LATEST NEWS:
+                </span>
+            <span>
+                <a style="width:25%;" href="http://oric.qau.edu.pk/?p=490" class="styledtext">Marie Curie Actions</a>
+
+
+                <a href="http://oric.qau.edu.pk/?p=478" class="styledtext">Factsheets for specific areas in open calls for proposals</a>
+
+
+                <a href="http://oric.qau.edu.pk/?p=450" class="styledtext">2012 Calls for Proposals Work Programmes</a>
+
+
+                <a href="http://oric.qau.edu.pk/?p=444" class="styledtext">FP7 General Information</a>
+
+            </span>           
+               
+           
+        </div>
+        <div id="central" >
+            <img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/some_logo.png" />
+            <div>
+                <p style="font-size:20px"> ( Office of Research Innovation & Commercialization )</p>
+                <p style="font-size:12px;margin-bottom:5px;font-family:Arial">
+                    The Office of Research, Innovation & Commercialization (ORIC) has been established under the directives of Higher Education Commission (HEC).
+                </p>
+
+            </div>
+
+        </div>
+    
+        <div id="widgets">
+            <div class="wid1">
+                <p class="part1">About <imporatnt>ORIC</imporatnt></p>
+                <img class="part2" src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/icons/some_1.png" />
+                <p class="part3">
+                    <b>ORIC  ( Office of Research Innovation & Commercialization )</b> The Office of Research, Innovation & Commercialization (ORIC) has been established under the directives of Higher Education Commission (HEC).................
+
+                </p>
+
+                  <a href="http://oric.qau.edu.pk/?page_id=48"><img align="right" src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/readmore.gif" /></a>
+            </div>
+
+            <div class="wid1">
+                <p class="part1">Visison & Mission</p>
+                <img class="part2" src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/icons/mission-n-vision.gif" />
+                <p class="part3">
+                    The mission of the Office for Research is to develop, expand, enhance and manage the university's research programs and to link research activities directly to the educational, social and economic priorities................
+                </p>
+                <a href="http://oric.qau.edu.pk/?page_id=73"><img align="right" src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/readmore.gif" /></a>
+            </div>
+
+            <div class="wid1">
+                <p class="part1">University Industry Linkage</p>
+                <img class="part2" src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/icons/mission-n-vision.gif" />
+
+                <p class="part3">
+                    University Industry Linkage
+
+                    ORIC which works within QAU to support and develop innovation activity within and outside the Institute.
+                    QAU is committed to providing a research & development environment to ................
+
+                </p>
+                <a href="http://oric.qau.edu.pk/?page_id=73"><img align="right" src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/readmore.gif" /></a>
+            </div>
+
+        </div>
+      
+        <div id="last">
+            <img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/some_logo.png" style="float:left" />
+            <div style="float:left;margin-left:10px;font-size:10px;font-family:Arial;">
+                <p >
+                    Copyright 2011 Computer Centre, Q.A.U. All Rights Reserved. Designed and developed by
+                </p>
+                <p>
+                    Anees ur Rehman
+                </p>
+            </div>
+            <div style= "display:flex;float:right;margin-top:25px">
+
+                
+                    <a href="#" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/myspace.png" alt="MySpace"></a>
+                    <a href="#" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/flickr.png" alt="Flickr"></a>
+                    <a href="#" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/blogger.png" alt="Blogger"></a>
+                    <a href="#" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/linkedin.png" alt="Linkedin"></a>
+                    <a href="#" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/delicious.png" alt="Delicious"></a>
+                    <a href="#" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/facebook.png" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/twetter.png" alt="Twetter"></a>
+                    <a href="javascript:void(0);" target="_blank"><img src="http://oric.qau.edu.pk/wp-content/themes/deluxe/images/social_icons/rss.png" alt="Rss"></a>
+                
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        app();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+
+        var myIndex = 0;
+        
+
+        function app() {
+            var j;
+            var y = document.getElementsByClassName("styledtext");
+            for (j = 0; j < x.length; j++) {
+                y[j].style.display = "none";
+                setTimeout(app, 2000);
+            }
+        }
+     
+    </script>
+    
+</body>
+</html>

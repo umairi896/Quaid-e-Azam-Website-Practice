@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .toppage {
+           
+            margin-top:0px;
+            width: 100%;
+            height: 150px;
+            background-color: #31A3DD;
+            border: 1px solid #31A3DD;
+        }
+        .nameweb{
+            font-size:2em;
+            color:white;
+            margin-top:0.7%;
+            float:left;
+            margin-left:5%;
+            height:80%;
+            width:30%;
+           
+        }
+        .qautext{
+            height:5%;
+            color:white;
+            position:relative;
+        }
+        .fa-envelope:before {
+            height:100px;
+            width:50px;
+            content: "\f0e0";
+        }
+        .rightboxtop{
+            margin:1%;
+            float:right;
+            height:80%;
+            width:40%;
+            
+        }
+
+        #menu {
+            margin-top: 15px;
+            margin-right: 10px;
+            margin-left: 180px;
+            height: 25px;
+        }
+
+
+        topnav {
+            
+            overflow: hidden;
+            background-color: white;
+        }
+
+        .topnav a {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial;
+            color: #000000;
+            
+        }
+        .mymenu{
+            height:65px;
+            
+            width:60%;
+           
+        }
+        .topnav a:hover {
+            color: white;
+            background-color: #31A3DD;
+        }
+
+        .topnav a.active {
+            background-color: #31A3DD;
+        }
+        .imgcenter {
+            height: 80px;
+            width: 50px;
+            float: left;
+            margin: 10px;
+            
+        }
+            .imgcenter:hover {
+                background-color: #31A3DD;
+            }
+    </style>
+</head>
+<body>
+    <center style="width:80%;margin-left:10%">
+        <div class="toppage">
+            <div class="nameweb">
+                Department of Biotechnology
+                <p style="font-size:17px;font-family:Arial">Quaid-i-Azam University</p>
+
+            </div>
+
+
+            <div class="rightboxtop">
+
+                <div style="width:100%">
+                    <img style="height:30px;width:30px;float:left"
+                         src="data:image/png;base64,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" />
+                    <a href="mailto:biotech@qau.edu.pk" style="color:white;font-size:20px;text-decoration:none;float:left">biotech@qau.edu.pk</a>
+
+                    <img src="https://www.seekpng.com/png/detail/335-3353908_png-file-tel-icon.png" style="width:30px;height:30px" />
+                    <a href="#" style="color:white;font-size:20px;text-decoration:none;float:right;margin-left:-25px">+92-51-9064-4129</a>
+                </div>
+
+
+                <img src="https://brandlogos.net/wp-content/uploads/2021/04/facebook-icon.png" style="height:30px;width:30px;margin-top:10px;border:3px solid white;" />
+                <img style="width:30px;height:30px;border:3px solid white"
+                     src="data:image/jpeg;base64,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" />
+
+            </div>
+
+
+        </div>
+
+        <div class="mymenu">
+
+            <div id="menu">
+                <div class="topnav">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">People</a>
+                    <a href="#">Degree Programs</a>
+                    <a href="#">Research</a>
+                    <a href="#">Admin</a>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <img src="http://bit.qau.edu.pk/department/wp-content/themes/enigma/images/shadow.png" />
+
+        <h1 style="font-family:Arial">Degree Programs</h1>
+        <div style="width: 15%;border: 2px solid #31A3DD;"></div>
+
+        <div style="height:15%;width:100%;height:53.76vh;display:flex">
+
+            <div style="width:30%;margin:1%;">
+
+                <img class="imgcenter"
+                     src="https://www.pngfind.com/pngs/m/599-5998744_welcome-to-mes-college-icon-fa-graduation-cap.png" />
+                <div>
+                    <h3 style="color: #31A3DD;font-family:Arial;font-size:22px">BS(Hons.)</h3>
+                    <p style="font-family:Arial;font-size:22px">Morning & Evening Programs </p>
+                </div>
+                <div style="font-family: Arial;font-size: 18px;color: #C8C9CA">
+                    <p> BS (Hons.) in Biotechnology is a four years (8 semesters) degree program.</p>
+                    <a href="#" style="color:#31A3DD;text-decoration:none;float:left;margin:1%">read more</a>
+                </div>
+
+            </div>
+
+
+            <div style="width:30%;margin:1%;">
+
+                <img class="imgcenter"
+                     src="https://www.pngfind.com/pngs/m/599-5998744_welcome-to-mes-college-icon-fa-graduation-cap.png" />
+                <div>
+                    <h3 style="color: #31A3DD;font-family:Arial;font-size:22px">M.Phil</h3>
+                    <p style="font-family:Arial;font-size:22px">M.Phil. in Biotechnology is a two years (4 semesters) </p>
+                </div>
+
+                <div style="font-family: Arial;font-size: 18px;color: #C8C9CA">
+                    <p> postgraduate degree program involving 24 credit hours of coursework; followed by 26 credit hours of original research and thesis.</p>
+                    <a href="#" style="color:#31A3DD;text-decoration:none;float:left;margin:1%">read more</a>
+                </div>
+
+            </div>
+
+            <div style="width:30%;margin:1%;">
+
+                <img class="imgcenter"
+                     src="https://www.pngfind.com/pngs/m/599-5998744_welcome-to-mes-college-icon-fa-graduation-cap.png" />
+                <div>
+                    <h3 style="color: #31A3DD;font-family:Arial;font-size:22px">Ph.D.</h3>
+                    <p style="font-family:Arial;font-size:22px">Doctor of Philosophy (Ph.D.) in Biotechnology is an advanced</p>
+                </div>
+                <div style="font-family: Arial;font-size: 18px;color: #C8C9CA">
+                    <p>postgraduate degree involving at least 18 credit hours of coursework; followed by a minimum of two or more years of original research and thesis.</p>
+                    <a href="#" style="color:#31A3DD;text-decoration:none;float:left;margin:1%">read more</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+        <h1 style="font-family:Arial">CURRENT NEWS</h1>
+        <div style="width: 15%;border: 2px solid #31A3DD;"></div>
+        <div style="height:10.752vh;width:60%;"></div>
+        <div style="height: 200px;width: 100%;background-color: #31A3DD;padding:10px">
+            <div style="width:42%;height:50%;margin-top:15px;">
+                <img style="        float: left;height: 30px;width: 30px;margin-top:5px;margin-left: 20px;"
+                     src="https://static.vecteezy.com/system/resources/thumbnails/000/423/558/small/Multimedia__287_29.jpg" />
+                <p style="font-size:22px;font-family:Arial;color:white;">Location: NCB Building, Quaid-i-Azam University, Islamabad 45320, Pakistan</p>
+
+            </div>
+
+            <span style="height:40px;width:60px;border:3px solid black;float:right;margin-top:-100px;margin-right:50px;border-radius:3px;padding:6px;font-size:20px">
+                <a href="http://qau.edu.pk/" style="text-decoration:none;font-size:18px;color:white">QAU</a>
+            </span>
+
+            <img src="http://bit.qau.edu.pk/department/wp-content/themes/enigma/images/shadow.png" />
+            <div style="height: 5.752vh; width: 100%; background-color: #33485C; margin-top: -30px;"></div>
+        </div>
+        <div style="width:100%;height:50px;">
+            <img src="https://brandlogos.net/wp-content/uploads/2021/04/facebook-icon.png" style="height:30px;width:30px;margin-top:10px;border:3px solid white;float:right" />
+            <img style="width:30px;height:30px;border:3px solid white;float:right"
+                 src="data:image/jpeg;base64,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" />
+
+        </div>
+
+        
+
+
+    </center>
+</body>
+</html>

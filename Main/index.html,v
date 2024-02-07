@@ -1,0 +1,660 @@
+head	1.7;
+access;
+symbols;
+locks
+	omar:1.7; strict;
+comment	@# @;
+
+
+1.7
+date	2022.01.04.19.35.38;	author omar;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2022.01.03.18.17.28;	author omar;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2022.01.02.17.40.02;	author omar;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2022.01.01.16.44.50;	author omar;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2021.12.31.21.03.43;	author omar;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2021.12.30.17.39.56;	author omar;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2021.12.29.21.33.27;	author omar;	state Exp;
+branches;
+next	;
+
+
+desc
+@revision 1.0
+@
+
+
+1.7
+log
+@version 1.6
+@
+text
+@<!DOCTYPE html>
+<!-- In the Name of Allah, the Most Gracious and the Most Merciful -->
+
+<html>
+	<head>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href = "./style.css" type = "text/css" rel = "stylesheet" />
+		<link rel = "shortcut icon" href = "../Images/HomePage/index.png" />
+		<title>
+			Quaid-i-Azam University, Islamabad, Pakistan
+		</title>
+	</head>
+	<body style="margin:0;">
+		<div class = "header">
+			<div class = "top-most">
+				<span class = "left-top-most">
+					<!--Monday   |   December 27, 2021 -->
+				</span>
+				<span class = "right-top-most">
+					QAU Mail | Facebook | Downloads
+				</span>
+			</div>
+			<div class = "banner">
+				<div class = "logo-container">
+					<img class="logo-resize1" src="../Images/HomePage/logo2.png" alt = "logo2" />
+					<img class="logo-resize2" src="../Images/HomePage/logo1.png" alt = "logo1" />
+				</div>
+				<span class = "right-menu">
+					<ul class = "bulleting">	
+						<li>
+							<a href="#" class="list">
+								QAU Alumni
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								QAU Statutes
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								News Center
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								Event Diary
+							</a>
+						</li>
+						<li>
+							<a href="#" class="list">
+								Affiliated Colleges
+							</a>
+						</li>
+					</ul>
+				</span>
+				<div class="nav-bar-icon" onclick="showNav()">
+					<img src="../Images/HomePage/nav-bar.png" alt="navigation bar icon" />
+				</div>
+			</div>
+			<div class="nav-bar-container">
+				<a href="#">
+					QAU
+				</a>
+				<a href="#">
+					Administration
+				</a>
+				<a href="#">
+					Undergraduate
+				</a>
+				<a href="#">
+					Postgraduate
+				</a>
+				<a href="#">
+					Admissions
+				</a>
+				<a href="#">
+					Examinations
+				</a>
+				<a href="#">
+					Library
+				</a>
+				<a href="#">
+					Research
+				</a>
+				<a href="#">
+					Contact
+				</a>
+				<a href="#">
+					Jobs
+				</a>
+			</div>
+		</div>
+		<div class="real-div">
+			<div class="slider-frame">
+				<div class="slider">
+					<img src="../Images/HomePage/1.jpg" alt="1" />
+					<img src="../Images/HomePage/2.jpg" alt="2" />
+					<img src="../Images/HomePage/3.jpg" alt="3" />
+				</div>
+			</div>
+			<div class="lower-body">
+				<div class="news-box">
+					<h3>
+						Latest News
+					</h3>
+					<div class="news1">
+						<img src="../Images/HomePage/latest_news/news1.png" alt="Conference on the Securitizing Non-Traditional Security Dynamics in South Asia begins at QAU" />
+						<a href="#">
+							<b>
+								Conference on the Securitizing Non-Traditional Security Dynamics in South Asia begins at QAU
+							</b>
+							<br />
+						</a>
+						School of Politics and International Relations (SPIR), Quaid-i-Azam University in collaboration with Hanns Seidel Foundation (HSF), Pakistan organized two days
+						<a href="#">
+							...>>
+						</a>
+					</div>
+					<div class="news2">
+						<img src="../Images/HomePage/latest_news/news2.png" alt="World Soil Day Celebrations at Quaid-i-Azam University" />
+						<a href="#">
+							<b>
+								World Soil Day Celebrations at Quaid-i-Azam University
+							</b>
+						</a>
+						<br />
+						Soil is one of the four pillars alongside water, air and light, upon which the structure of life is built up. FAO has declared 5th December as World Soil Day. It’s
+						<a href="#">
+							...>>
+						</a>
+					</div>
+					<div class="news3">
+						<img src="../Images/HomePage/latest_news/news3.png" alt="Society for Promotion of Science inaugurates at QAU">
+						<a href="#">
+							<b>
+								Society for Promotion of Science inaugurates at QAU
+							</b>
+						</a>
+						<br />
+						The inauguration ceremony of the ‘Society for Promotion of Science’ (SPS) was held at the Quaid-i-Azam University (QAU). Prof. Dr. Muhammad Ali, Vice Chancellor,
+						<a href="#">
+							...>>
+						</a>
+					</div>
+					<div class="view-all-news">
+						<a href="#">
+							<b>
+								View All News
+							</b>
+						</a>
+					</div>
+				</div>
+				<div class="latest-events">
+					<div class="typical-head-container">
+						<h3 class="typical-head">
+							Latest Events
+						</h3>
+					</div>
+					<p>
+					<a href="#" class="latest-events-a1">
+						 World Soil Day Halt soil salinization, boost soil productivity Celebrated on 7th December, 2021
+					</a>
+					</p>
+					<p>
+					<a href="#" class="latest-events-a2">
+						Department of Plant Sciences, Quaid-i-Azam University in collaboration with ORIC & PASTIC,Islamabad
+					</a>
+					</p>
+					<p>
+					<a href="#">
+						>> Click here for Details
+					</a>
+					</p>
+				</div>
+				<div class="stack-heads-container">
+					<div class="stack-head1">
+						<div class = "typical-head-container">
+							<h4 class="typical-head">
+								Student Scholarships
+							</h4>
+						</div>
+						A separate office of the Students' Financial Assistance (OSFA) is established in Quaid-i-Azam University, Islamabad in collaboration with HEC to provide financial help/Scholarships to the meritorious .....
+						<a href="#">
+							more >>
+						</a>
+						<p>
+						<b>
+						<a href="#" class="scholarships">
+							<ul class="stackbullets">
+								<li>
+									Scholarships
+								</li>
+							</ul>
+						</a>
+						</b>
+						</p>
+					</div>
+					<div class="stack-head2">
+						<div class="typical-head-container">
+							<h4 class="typical-head">
+								Find out Right Programme for you
+							</h4>
+						</div>
+						<h2>
+							Browse Programmes
+						</h2>
+						<ul class="stackbullets">
+							<li>
+								item 1
+							</li>
+							<li>
+								item 2
+							</li>
+							<li>
+								item 3
+							</li>
+							<li>
+								item 4
+							</li>
+						</ul>
+					</div>
+					<div class="stack-head3">
+						<div class="typical-head-container">
+							<h4 class="typical-head">
+								International Students
+							</h4>
+						</div>
+						Quaid-i-Azam University promotes higher education within the country while encouraging Pakistani nationals and extends it to the foreign nationals seeking entrance to the University. The University is rated amongst the best institutions of the region and follows the Higher Education Commission's (HEC) criteria to entertain the foreign students. HEC, in collaboration with various administrative agencies
+						<a href="#">
+							Read more >>
+						</a>
+					</div>
+					<div class="stack-head4">
+						<div class="typical-head-container">
+							<h4 class="typical-head">
+								Anti-Plagiarism Service
+							</h4>
+						</div>
+						In the wake of fundamental improvements being introduced in the system of Higher Education in Pakistan, the credit, respect, recognition of research and scholarly publications, career development and financial gains are now linked with ......
+						<a href="#">
+							Read More
+						</a>
+						<ul>
+							<li>
+								item 1
+							</li>
+							<li>
+								item 2
+							</li>
+							<li>
+								item 3
+							</li>
+							<li>
+								item 4
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="message-vc">
+					<h3>
+						Message from VC
+					</h3>
+					<p>										<img src="../Images/HomePage/vc.jpg" alt="VC" />
+
+					Quaid-i-Azam University (QAU) is the premier seat of learning in Pakistan, known for its research and excellence in teaching. Consistently ranked top academic institution by Higher Education Commission
+					</p>
+					<a href="#">
+						<b>
+						>> Read More
+						</b>
+					</a>
+				</div>
+				<div class="link-boxes">
+					<div class="link-boxes-leftborder">
+					</div>
+					<div class="microsoft">
+						<h3>
+							Microsoft
+						</h3>
+						<img src="../Images/HomePage/microsoft.jpg" alt="microsoft" />
+						<ul class="bulleting-a">
+							<li>
+								<a href="#">
+									Already Registered
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Request for Account
+								</a>
+							</li>
+						</ul>
+						<div class="microsoft-borderright">
+						</div>
+
+					</div>
+					<div class="student-important">
+						<div class="student-corner">
+							<h3>
+								Student Corner
+							</h3>
+							<ul class="bulleting-a">
+								<li>
+									<a href="#">
+										Student Clearance Form (PDF Format/Word Format)
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Application Form (M.Phil./Ph.D)
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="important-links">
+							<h3>
+								Important Links
+							</h3>
+							<ul class="bulleting-a">
+								<li>
+									<a href="#">
+										IESECO Women in Science Chair at QAU
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Harassment Act
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Notification
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Foreign Faculty
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Data of Dr. Gul Majeed khan, Tenures Professor of Pharmacy
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="microsoft-borderright">
+						</div>
+					</div>
+					<div class="circulars-clubs">
+						<div class="circulars">
+							<h3>
+								Circulars / Notifications
+							</h3>
+							<ul class="bulleting-a">
+								<li>
+									<a href="#">
+										Pre-Qualification / Registration of Suppliers For All Procurement Categories
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Notification for Employees of BPS-11 to 16 for allotment of C-type Quarter C-37 in the University Residential Colony
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="clubs">
+							<h3>
+								Clubs / Socities
+							</h3>
+							<ul class="bulleting-a">
+								<li>
+									<a href="#">
+										Studdent Affairs
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Adventure Club
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Debating & Literary Society
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Welfare Society
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="microsoft-borderright">
+						</div>
+					</div>
+					<div class="affiliated-ict">
+						<h3>
+							Affiliated ICT Colleges
+						</h3>
+						<ul class="bulleting-a">
+							<li>
+								<a href="#">
+									Proforma for Freeze/Drop of Semester (ICT)
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									BCS Examinations Form 2021
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Master's Examinations Form 2021
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Admission Form for BS/ADP
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Challan Form
+							</li>
+							<li>
+								<a href="#">
+									Degree Form
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Subject Change Form
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Duplicate Result Card
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Correction in Name/Percentage
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Degree/Marks Sheet Verfication
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Affiliation Form (Dynamic)
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Affiliation Form (Static)
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Migration Certificate(ICT)
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Download Rechecking Form
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="link-boxes-rightborder">
+					</div>
+				</div>
+				<div class="about-map-container">
+					<div class="about-us">
+						<h3>
+							About Us
+						</h3>
+						<img src="../Images/HomePage/university.png" alt="University" />
+						<p>
+						This University was established as University of Islamabad under an Act of National Assembly passed in July, 1967. It started teaching and research program for M.Phil & Ph.D. degrees. Later on, it was decided to start M.Sc. degree program for graduates from all regions of the country, based on regional quota. The University was housed initially in rented buildings in Satellite Town, Rawalpindi and moved to its permanent
+						<a href="#">
+							>> More
+						</a>
+						</p>
+					</div>
+					<div class="qau-map">
+						<h3>
+							QAU
+						</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54508.425490128!2d74.14597635598777!3d31.36514363302823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918ff9a30fa362d%3A0x528615a7981ce611!2sBahria%20Town%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1641218301294!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<address>
+				 Quaid-i-Azam University Islamabad, 45320, Pakistan.
+			</address>
+			<div class="contactinfo">
+				<span class="tele">
+					Tel: +92-51 9064 0000
+				</span>
+				, Email:
+				<a href="mailto:info@@qau.edu.pk">
+					info@@qau.edu.pk
+				</a>
+			</div>
+		</footer>
+		<script type="text/javascript" src="script.js">
+		</script>
+
+	</body>
+	<!-- Random comment -->
+</html>
+@
+
+
+1.6
+log
+@version 1.6
+@
+text
+@d156 3
+a158 3
+					<h3 class="typical-head">
+						Latest Events
+					</h3>
+d294 1
+a294 1
+																<div class="microsoft-borderright">
+d348 1
+a348 1
+																<div class="microsoft-borderright">
+d500 14
+@
+
+
+1.5
+log
+@version 1.5
+@
+text
+@d260 238
+@
+
+
+1.4
+log
+@version 1.4
+@
+text
+@d155 2
+a156 1
+					<h3>
+d159 100
+d266 1
+@
+
+
+1.3
+log
+@version 1.3
+@
+text
+@d102 58
+d161 2
+a162 2
+	<script type="text/javascript" src="script.js">
+	</script>
+@
+
+
+1.2
+log
+@version 1.2
+@
+text
+@a13 2
+		<script type="text/javascript" src="script.js">
+		</script>
+d17 1
+a17 1
+				Monday   |   December 27, 2021 
+d95 6
+a100 4
+			<div class="slider">
+				<img src="../Images/HomePage/1.jpg" alt="1" />
+				<img src="../Images/HomePage/2.jpg" alt="2" />
+				<img src="../Images/HomePage/3.jpg" alt="3" />
+d103 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d14 2
+d59 42
+@
